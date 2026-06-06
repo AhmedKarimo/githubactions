@@ -13,3 +13,7 @@ jobs:
     steps:
       - name: Print welcome message
         run: echo " Welcome to the workflow!"
+      - name: Checkout Reository
+        uses: actions/checkout@v6.0.3
+      - name: List reository files
+        run: ls -la

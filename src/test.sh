@@ -1,6 +1,6 @@
 #!/bin/bash
 
-output=$(node app.js)
+output=$(node src/app.js)
 
 expected="Hello, Ahmed!"
 
